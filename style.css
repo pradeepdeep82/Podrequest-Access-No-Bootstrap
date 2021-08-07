@@ -1,0 +1,186 @@
+:root{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(17 23 37)  ;
+  color: white;
+}
+section{
+  background-image: url("https://www.freevector.com/uploads/vector/preview/5468/FreeVector-Singer-Background-Template.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 70%;
+}
+.pod{
+  font-size: 2rem;
+  color: rgb(83 230 175);
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.pod>i>span{
+  color: white;
+  margin-left: 0.5rem;
+}
+.content{
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-color:rgb(17 23 37)  ;
+  padding-top: 5%;
+  height: 50%;
+}
+.content h2{
+  font-size: 300%;
+  font-weight:normal;
+  
+}
+.content>h2:nth-child(1){
+  color: rgb(83 230 175);
+}
+.content>h2:nth-child(2){
+  margin-top: -40px;
+}
+.content>p{
+  text-align:left;
+  margin-right: 40%;
+}
+input{
+  width: 55%; 
+  border-radius: 2rem;
+  height: 3rem;
+  background-color:rgb(44 52 75) ;
+  border: 0px;
+  margin-top: 1rem;
+}
+
+::placeholder{
+  color: white;
+  font-size: 1rem;
+  padding-left: 2rem;
+}
+button{
+  width: 20%; 
+  height: 2.5rem;
+  border-radius:2rem;
+  background-color: rgb(83 230 175);
+  border: 0px;
+  text-align: center; 
+  position:relative;
+  right: 21.5%;
+}
+.icon{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 105%;
+}
+.icon>i{
+  margin-right: 8%;
+}
+.icon>i:nth-child(4){
+  margin-left: 8%;
+}
+.dotDesign{
+  position:absolute;
+  right: 0px;
+  bottom: 16.2%;
+}
+.dot{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color:rgb(83 230 175);
+  display:inline-flex;
+  margin-right: 15px;
+}
+@media (max-width:1024px){
+.content{
+  width: 70%;
+  position: relative;
+  top: 4rem;
+}
+button{
+  position: relative;
+  right:150px;
+}
+input{
+  width: 70%;
+}
+.dotDesign{
+  position: relative;
+  left: 0px;
+  top: 60px;
+}
+.icon>i{
+  margin-right: 5%;
+  font-size: 80%;
+}
+}
+@media (max-width:768px
+){
+  button{
+    position: relative;
+   right: 118px;
+    bottom: 8px;
+}
+}
+@media (max-width:425px){
+
+  section{
+    background-image: linear-gradient(rgb(192, 194, 193),rgb(179, 184, 181) ), url("https://www.freevector.com/uploads/vector/preview/5468/FreeVector-Singer-Background-Template.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+  }
+  .content{
+    margin-top: 0px;
+    margin-left: 10px;
+    padding-top: 0px;
+    background:none;
+    text-align: center;
+   width: 100%;
+   text-align: justify;
+  }
+  .pod{
+    margin-left: 35%;
+    padding-top: 15%; ;
+    padding-bottom: 0px;
+  }
+  .content h2{
+    font-size: 26px;
+    text-align: center;
+    margin-left: 0px;
+    padding-right: 36px;
+  }
+.content>h2:nth-child(2){
+  margin-top: -20px;
+}
+.content>p{
+  text-align: center;
+  margin:0px 50px 0px 10px; 
+}
+.icon{
+  position: relative;
+  bottom: 120px;
+}
+input{
+  position: relative;
+  bottom: -50px;
+  left: 2%;
+  width: 80%;
+  height: 2.8rem;
+}
+button{
+  width: 80%;
+  position: relative;
+  left:7px;
+  bottom: -60px;
+  height: 2.8rem;
+}
+.icon{
+  font-size: 90%;
+}
+.icon>i{
+  margin-right:1%;
+}
+.icon>i:nth-child(4){
+  margin-left: 2%;
+}
+}
